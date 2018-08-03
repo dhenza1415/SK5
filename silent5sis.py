@@ -3764,7 +3764,7 @@ def bot(op):
                        ki3.sendText(g.mid,"KAPOK")
                        ki4.sendText(g.mid,"KAPOK")
                        ki5.sendText(g.mid,"KAPOK")
-		               ki6.sendText(g.mid,"KAPOK")
+		       ki6.sendText(g.mid,"KAPOK")
                        ki.sendText(g.mid,"KAPOK")
                        ki2.sendText(g.mid,"KAPOK")
                        ki3.sendText(g.mid,"KAPOK")
