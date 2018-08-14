@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
-import VIPRO
-from VIPRO.lib.curve.ttypes import *	
+import LINETCR
+from LINETCR.lib.curve.ttypes import *	
 from datetime import datetime	
 import io,os,re,ast,six,sys,glob,json,time,timeit,codecs,random,shutil,urllib,urllib2,urllib3,goslate,html5lib,requests,threading,wikipedia,subprocess,googletrans
 from gtts import gTTS	
@@ -17,22 +17,22 @@ if (six.PY2):
 else:
     import urllib.request
     import urllib.parse
-acil = VIPRO.LINE()
+acil = LINETCR.LINE()
 acil.login(token="EvhTkBNJ4sYWvEPVNIV0.+CiloGc16pmEt5ebFRnHSa.zYb6OJr/Oz7JJI8LCekBfyrU/VNEQtkvPAhg6A6Q/wQ=")
 acil.loginResult()
-ki = VIPRO.LINE()
+ki = LINETCR.LINE()
 ki.login(token="EvUHPxP02dkveJgFnlne.3gYgoFqhnGt2d8T4Rxr4pG.2a8ZROltuctJFdVU5mSIX+R/SSiLccgjEXQSYG4+8tI=")
 ki.loginResult()
-ki2 = VIPRO.LINE()
+ki2 = LINETCR.LINE()
 ki2.login(token="EvpIJfbjECPYjyTC0kwd.p1zRh4stv2b2yZf6gJEtZq.e372KWQt6akpcqOgg1+fUs0pSpALrViRm0DmhOVFJCk=")
 ki2.loginResult()
-ki3 = VIPRO.LINE()
+ki3 = LINETCR.LINE()
 ki3.login(token="EvzdlhyhujwcalqoKuxb.j0UXFKRs7dy+/0MJoY6x2W.r09L8afjpe7Xci9MZCLFfsw8wT1NqeFIOwvreyxZ9/I=")
 ki3.loginResult()
-ki4 = VIPRO.LINE()
+ki4 = LINETCR.LINE()
 ki4.login(token="EvxipQCQE6VZLaRZYmi6.z1isnjxuFVqKLrc5MOVULG.74K+WGWxsoZfUaNUpCQ6xBjK1yGcdq7uwu7lDf4znak=")
 ki4.loginResult()
-ki5 = VIPRO.LINE()
+ki5 = LINETCR.LINE()
 ki5.login(token="EvRkIEduO8g9DSsyU5L2.Gf7TsLV4CfuLnq48Pxi4CG.ZAvciuwGp7mO6Jw88YL1A5bvN7j2+NNYBNPIXeh9wWY=")
 print "login success"
 reload(sys)
